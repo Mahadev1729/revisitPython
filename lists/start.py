@@ -1,0 +1,15 @@
+﻿lst=["mahadev","akash","shashi"]
+print(lst)
+lst.append(56)
+print(lst)
+lst.pop()
+print(lst)
+lst.insert(2,34)
+print(lst)
+lst.remove('mahadev')
+print(lst)
+del lst[2:]
+print(lst)
+lst.extend([34,56,78])
+print(lst)
+print(min(lst))
